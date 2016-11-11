@@ -1,3 +1,15 @@
+
+$(document).ready(function(){
+//seat highlighting//
+    $(".seat").mouseenter(function(){
+      $(this).fadeTo("fast",1);
+
+      });
+    $(".seat").mouseleave(function(){
+      $(this).fadeTo("fast",0.5);
+    });
+
+
 /*//// FORM SCRIPT BELOW ////*/
 $("#formWrapper").hide();
 
@@ -24,4 +36,8 @@ function pullInfo() {
 
   $("#formWrapper").slideToggle();
 }
+
 /*//// FORM SCRIPT END ////*/
+
+
+});
