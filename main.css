@@ -1,0 +1,24 @@
+/*//// FORM STYLE BELOW ////*/
+form {
+  padding: 1%;
+}
+
+input {
+  display: block;
+  padding: 1%;
+  margin: 1%;
+}
+
+#submitButton {
+  margin: 1%;
+}
+
+.seat {
+  background-color: pink;
+  color: black;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+/*//// FORM STYLE END ////*/

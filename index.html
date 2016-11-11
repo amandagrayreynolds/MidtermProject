@@ -1,18 +1,38 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="main.css">
+
 	<title>Theatre Project</title>
-
 </head>
+
 <body>
+	<header>WELCOME TO OUR MOVIE THEATRE *FANCY TEXT*</header>
+	<h2> please pick your seat!</h2>
 
-<header>WELCOME TO OUR MOVIE THEATRE *FANCY TEXT*</header>
-<h2> please pick your seat!</h2>
-
-<div id="seats">
+	<div id="seats">
 	</div>
 
-<div id="form">
+	<div id="form">
 	</div>
+
+
+	<!-- USER SEAT RESERVATION FORM BELOW -->
+	<div id="formWrapper">
+		<form>
+			<input type="text" id="userName" placeholder="Your Name"/>
+			<input type="text" id="userPhone" placeholder="Your Phone #"/>
+			<input type="email" id="userEmail" placeholder="Your E-mail"/>
+			<button type="button" id="submitButton">submit</button>
+		</form>
+	</div>
+	<!-- END USER SEAT RESERVATION -->
+
+
+	<script src="lib/jquery-1.11.1.js"></script>
+	<script src="script.js"></script>
 
 <footer> La La La </footer>
 
