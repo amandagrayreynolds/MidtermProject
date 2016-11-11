@@ -21,12 +21,12 @@ var seats = ["A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4",
   else {
   $("#row4").append('<div class="Dassie seat">' + seats[i]+ '</div>');  
   }
-
-
 };
 
+
+
 //END CLASS
-$(document).ready(function(){
+
 //seat highlighting//
     $(".seat").mouseenter(function(){
       $(this).fadeTo("fast",1);
