@@ -9,6 +9,15 @@ input {
   margin: 1%;
 }
 
+#theatre{
+width:90%;
+}
+
+.row{position:block;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 #submitButton {
   margin: 1%;
 }
@@ -16,9 +25,11 @@ input {
 .seat {
   background-color: pink;
   color: black;
-  margin: 10px;
-  width: 100px;
-  height: 100px;
+  margin-left: 9px;
+  width: 5%;
   display: inline-block;
+  padding:2%;
+  border-radius:10px;
+  text-align: center;
 }
 /*//// FORM STYLE END ////*/
