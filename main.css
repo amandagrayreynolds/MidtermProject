@@ -1,3 +1,13 @@
+Body{
+  background-image:url("images/space1.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  width:100%;
+  Height:600px;
+}
+
 #theatre{
 width:90%;
 }
