@@ -6,13 +6,9 @@
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="main.css">
 	<script src="script.js"></script>
-	 <script>
-   	function hidePage() {
-    document.getElementById("page-one").style.visibility = "hidden";
-    document.getElementById("page2").style.visibility = "visible";
-}
-    </script>
-
+		<script src="lib/jquery-1.11.1.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="shootingstars.css"/>
 	<title>Theatre Project</title>
 </head>
 
@@ -21,16 +17,16 @@
 	<div id="page-one">
 	<div class="fullscreen-bg">
     	<video loop muted autoplay class="fullscreen-bg__video">
-    	<source src="night.mp4" type="video/mp4">
+    	<source src="space.mp4" type="video/mp4">
     	</video>
 	</div>
      <span id="title"> Welcome To <br>The Show <br> </span>
-     <button type="button" id="hideButton" onclick="hidePage()">Get Your Tickets!</button>
+     <a href="seats.html"><button type="button" id="hideButton">Get Your Tickets!</button></a>
 	</div>
 
 
 <!-- hidden page 2 - form -->
-<div id="page2" display="hidden">
+<!-- <div id="page2" display="hidden">
 		<header>WELCOME TO OUR MOVIE THEATRE *FANCY TEXT*</header>
 	<h2> please pick your seat!</h2>
 
@@ -50,7 +46,7 @@
 		<div id="form" class="row">
 
 			<!-- shootingStars -->
-			<div class="shootingStars">
+		<!-- 	<div class="shootingStars">
 								<div class="shootingStar"></div>
 								<div class="shootingStar"></div>
 								<div class="shootingStar"></div>
@@ -58,11 +54,11 @@
 								<div class="shootingStar"></div>
 								<div class="shootingStar"></div>
 						</div>
-		</div>
+		</div> -->
 
 
 	<!-- USER SEAT RESERVATION FORM BELOW -->
-	<div id="formWrapper">
+	<!-- <div id="formWrapper">
 		<form id="reservationForm">
       <p>Your selection: <span id="selectedSeat"></span></p>
       <input type="text" id="userName" placeholder="Your Name"/>
@@ -70,15 +66,13 @@
       <button type="button" id="submitButton">submit</button>
       <button type="button" id="clearButton">clear</button>
     </form>
-  </div>
-	<!-- END USER SEAT RESERVATION -->
+  </div> -->
+	<!-- END USER SEAT RESERVATION --> -->
 
 
-	<script src="lib/jquery-1.11.1.js"></script>
-	<script src="script.js"></script>
-	<link rel="stylesheet" href="shootingstars.css"/>
 
-<footer> La La La </footer>
+
+<!-- <footer> La La La </footer> -->
 
 </body>
 </html>
