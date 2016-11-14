@@ -22,7 +22,7 @@ width:90%;
 }
 
 .seat {
-  background-color: grey;
+  background-color: #ffffff;
   opacity: 0.5;
   /*color: black;*/
   margin-left: 11px;
@@ -50,15 +50,15 @@ input {
 }
 
 .taken {
-  background-color: pink;
+  background-color: #827676;
 }
 
 .open {
-  background-color: gray;
+  background-color: #f2f2f9;
 }
 
 .selected {
-  background-color: gold;
+  background-color: #2a31f9;
 }
 
 
