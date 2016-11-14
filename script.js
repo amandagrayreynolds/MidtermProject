@@ -7,19 +7,19 @@ var seats = ["A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4",
  for(var i =0; i< seats.length; i++){
  var element = seats[i];
   if (element.charAt(0)==="A"){ 
-    $("#row1").append('<div class="Assie seat" id="'+element+'"">' + seats[i]+ '</div>');
+    $("#row1").append('<div class="row seat" id="'+element+'"">' + seats[i]+ '</div>');
   } 
   
   else if (element.charAt(0)==="B"){
-  $("#row2").append('<div class="Bassie seat">' + seats[i]+ '</div>');  
+  $("#row2").append('<div class="row seat">' + seats[i]+ '</div>');  
   }
 
   else if (element.charAt(0)==="C"){
-  $("#row3").append('<div class="Cassie seat">' + seats[i]+ '</div>');  
+  $("#row3").append('<div class="row seat">' + seats[i]+ '</div>');  
   }
 
   else {
-  $("#row4").append('<div class="Dassie seat">' + seats[i]+ '</div>');  
+  $("#row4").append('<div class="row seat">' + seats[i]+ '</div>');  
   }
 };
 
