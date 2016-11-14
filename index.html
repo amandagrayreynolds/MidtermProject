@@ -6,12 +6,32 @@
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="main.css">
 	<script src="script.js"></script>
+	 <script>
+   	function hidePage() {
+    document.getElementById("page-one").style.visibility = "hidden";
+    document.getElementById("page2").style.visibility = "visible";
+} 
+    </script>
 
 	<title>Theatre Project</title>
 </head>
 
 <body>
-	<header>WELCOME TO OUR MOVIE THEATRE *FANCY TEXT*</header>
+<!-- 	splash page -->
+	<div id="page-one">	
+	<div class="fullscreen-bg">
+    	<video loop muted autoplay class="fullscreen-bg__video">
+    	<source src="night.mp4" type="video/mp4">
+    	</video>
+	</div>
+     <span id="title"> Welcome To <br>The Show <br> </span>
+     <button type="button" id="hideButton" onclick="hidePage()">Get Your Tickets!</button>
+	</div>
+
+
+<!-- hidden page 2 - form -->
+<div id="page2" display="hidden">
+		<header>WELCOME TO OUR MOVIE THEATRE *FANCY TEXT*</header>
 	<h2> please pick your seat!</h2>
 
 	<div id="theatre">

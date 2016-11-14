@@ -124,5 +124,6 @@ $(".seat").click(function(){
     }
   });
   /*//// FORM SCRIPT END ////*/
+  
 
 });
