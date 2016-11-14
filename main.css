@@ -1,14 +1,3 @@
-/*//// FORM STYLE BELOW ////*/
-form {
-  padding: 1%;
-}
-
-input {
-  display: block;
-  padding: 1%;
-  margin: 1%;
-}
-
 #theatre{
 width:90%;
 }
@@ -23,7 +12,7 @@ width:90%;
 }
 
 .seat {
-  background-color: pink;
+  background-color: grey;
   opacity: 0.5;
   /*color: black;*/
   margin-left: 9px;
@@ -33,4 +22,38 @@ width:90%;
   border-radius:10px;
   text-align: center;
 }
+
+/*//// FORM STYLE BELOW ////*/
+form {
+  padding: 1%;
+  font-family: monospace;
+}
+
+input {
+  display: block;
+  padding: 1%;
+  margin: 1%;
+}
+
+#submitButton {
+  margin: 1%;
+}
+
+.taken {
+  background-color: pink;
+}
+
+.open {
+  background-color: gray;
+}
+
+.selected {
+  background-color: gold;
+}
+
+
+#selectedSeat {
+  font-weight: bold;
+}
+
 /*//// FORM STYLE END ////*/
